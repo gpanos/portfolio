@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Wingly",
+    "role": "Lead software engineer",
+    "description": "Started as a full-stack developer, developed from zero the mobile application, web platform and various other products helping the company scale and grow its business. Currently leading a team of developers, splitting my time between management and coding.",
+    "period": "2016 - present",
+    "stack": [
+      {
+        "name": "Laravel"
+      },
+      {
+        "name": "Vue"
+      }
+    ]
+  },
+  {
+    "name": "Inock",
+    "role": "Full stack developer",
+    "description": "Worked in a variety of projects building internal tools for prestigious companies like Apple, L'Oréal and Mumm. I had the chance to work with multiple different stacks from proprietary frameworks to Symfony, Meteor, Angular and more.",
+    "period": "2014 - 2016",
+    "stack": [
+      {
+        "name": "Symfony"
+      },
+      {
+        "name": "Angular"
+      }
+    ]
+  }
+]

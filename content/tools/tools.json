@@ -1,0 +1,41 @@
+[
+  {
+    "name": "Laravel"
+  },
+  {
+    "name": "Vue"
+  },
+  {
+    "name": "Redis"
+  },
+  {
+    "name": "MySQL"
+  },
+  {
+    "name": "Pest"
+  },
+  {
+    "name": "PHPUnit"
+  },
+  {
+    "name": "Valet"
+  },
+  {
+    "name": "Tailwindcss"
+  },
+  {
+    "name": "Livewire"
+  },
+  {
+    "name": "Inertia.js"
+  },
+  {
+    "name": "Nuxt"
+  },
+  {
+    "name": "Git"
+  },
+  {
+    "name": "Sentry"
+  }
+]
