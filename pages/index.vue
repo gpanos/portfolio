@@ -10,13 +10,11 @@
     </PageHeading>
 
     <Content>
-      <Article>
-        <p class="text-xl">
-          I'm a mid-thirty web developer from Greece living in beautiful Paris.
-          My core programming languages are PHP and Javascript.
-          Currently in love with Laravel and Vue.
-        </p>
-      </Article>
+      <p class="text-xl">
+        I'm a mid-thirty web developer from Greece living in beautiful Paris.
+        My core programming languages are PHP and Javascript.
+        Currently in love with Laravel and Vue.
+      </p>
 
       <Article>
         <template #title>

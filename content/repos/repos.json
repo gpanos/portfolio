@@ -1,0 +1,42 @@
+[
+  {
+    "name": "pwinty",
+    "description": "This package makes working with Pwinty image-printing API in Laravel applications a breeze. You can place orders, add images and submit them for shipping. You can also subscribe to Pwinty webhooks after you configure your callback URL at the Pwinty dashboard.",
+    "link": "pwinty"
+  },
+  {
+    "name": "phone-verification",
+    "description": "Add phone verification workflows to your Laravel users powered by Vonage verify api.",
+    "link": "https://github.com/Wingly-Company/phone-verification"
+  },
+  {
+    "name": "apidoc",
+    "description": "Use PHP 8 attributes to document your api routes.",
+    "link": "https://github.com/Wingly-Company/apidoc"
+  },
+  {
+    "name": "laravel-observe-attribute",
+    "description": "PHP 8 attribute to register Laravel model observers.",
+    "link": "https://github.com/gpanos/laravel-observe-attribute"
+  },
+  {
+    "name": "laravel-morph-alias-attribute",
+    "description": "PHP 8 attribute to register Laravel custom polymorphic types.",
+    "link": "https://github.com/gpanos/laravel-morph-alias-attribute"
+  },
+  {
+    "name": "explain",
+    "description": "Explain a Shell Command.",
+    "link": "https://github.com/gpanos/explain"
+  },
+  {
+    "name": "morse",
+    "description": "A command line tool to translate latin text to morse code.",
+    "link": "https://github.com/gpanos/morse"
+  },
+  {
+    "name": "dotfiles",
+    "description": "My personal Mac preferences.",
+    "link": "https://github.com/gpanos/dotfiles"
+  }
+]

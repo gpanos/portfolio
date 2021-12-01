@@ -16,7 +16,7 @@
         <template #title>
           Jobs
         </template>
-        <Article v-for="(job, jobIdx) in jobs" :key="jobIdx" class="rounded-lg bg-white p-6 shadow">
+        <Article v-for="(job, jobIdx) in jobs" :key="jobIdx">
           <template #title>
             {{ job.name }}
           </template>
@@ -38,7 +38,7 @@
         <template #title>
           Education
         </template>
-        <Article v-for="(institute, instituteIdx) in institutes" :key="instituteIdx" class="rounded-lg bg-white p-6 shadow">
+        <Article v-for="(institute, instituteIdx) in institutes" :key="instituteIdx">
           <template #title>
             {{ institute.name }}
           </template>
@@ -64,11 +64,11 @@ export default {
 
     return { jobs, institutes }
   },
+
   head () {
     return {
       title: 'Jobs & Education'
     }
   }
-
 }
 </script>
