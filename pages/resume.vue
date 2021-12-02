@@ -21,15 +21,15 @@
             {{ job.name }}
           </template>
           <p>{{ job.role }}</p>
-          <p class="text-sm text-gray-500">
+          <p class="text-sm">
             {{ job.description }}
           </p>
-          <div class="flex items-center mt-4">
-            <Badge v-for="(tool, toolIdx) in job.stack" :key="toolIdx" class="mr-2">
+          <div class="flex items-center pt-4">
+            <Badge v-for="(tool, toolIdx) in job.stack" :key="toolIdx" class="mr-1">
               {{ tool.name }}
             </Badge>
           </div>
-          <div class="flex justify-end text-xs text-gray-500 mt-4">
+          <div class="flex justify-end text-xs mt-4">
             {{ job.period }}
           </div>
         </Article>
@@ -42,10 +42,10 @@
           <template #title>
             {{ institute.name }}
           </template>
-          <p class="text-sm text-gray-500">
+          <p class="text-sm">
             {{ institute.diploma }}
           </p>
-          <div class="flex justify-end text-xs text-gray-500 mt-4">
+          <div class="flex justify-end text-xs mt-4">
             {{ institute.period }}
           </div>
         </Article>

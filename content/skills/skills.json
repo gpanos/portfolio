@@ -1,11 +1,11 @@
 [
   {
     "title": "Mentoring and helping developers to grow.",
-    "description": "I've worked for several years as a lead developer and had the chance to collaborate with some great people. In my daily time I split my time between coding, conducting code reviews, helping and guiding my team. I work closely with the product people to translate their needs into technical requirements."
+    "description": "I've worked for several years as a lead developer and had the chance to collaborate with some great people. I split my time between coding, conducting code reviews and providing guidance to my team. I work closely with the product people to translate their needs into technical requirements."
   },
   {
     "title": "Autonomous and experienced working in remote environments.",
-    "description": "I have led projects from start to finish. From frontend and backend to setting up CI/CD and organizing the development flows. Worked in agile environments and scrum methodologies."
+    "description": "I have led projects from start to finish. From frontend and backend, to setting up CI/CD and organizing the development flows. Worked in agile environments and scrum methodologies."
   },
   {
     "title": "Strong analytical point of view.",
@@ -13,7 +13,7 @@
   },
   {
     "title": "Sensitive about UX/UI design.",
-    "description": "Worked closely with designers to create and maintain design systems. Familiar with atomic design principles and tools like Storybook and Figma. Still learning about accessibility and semantics."
+    "description": "Worked closely with designers to create and maintain design systems. Familiar with atomic design principles and tools like Storybook and Figma. Still learning about web accessibility and semantics."
   },
   {
     "title": "Domain-Driven Design.",
@@ -21,6 +21,6 @@
   },
   {
     "title": "Excellent knowledge of object-oriented programming.",
-    "description": "Worked with various MVC frameworks in my career I have strong knowledge and understanding of OOP principals."
+    "description": "Worked with various MVC frameworks in my career; I have strong knowledge and understanding of OOP principals."
   }
 ]

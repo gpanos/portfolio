@@ -10,7 +10,7 @@
     </PageHeading>
 
     <Content>
-      <p class="text-xl">
+      <p class="text-xl dark:text-white leading-loose">
         I'm a mid-thirty web developer from Greece living in beautiful Paris.
         My core programming languages are PHP and Javascript.
         Currently in love with Laravel and Vue.
@@ -24,7 +24,7 @@
           I have been translating business requirements into code for almost a decade now.
           My point of view of what is important in this field constantly changes.
         </p>
-        <p>Some of the skills that I picked along the way are</p>
+        <p>Some of the skills that I picked along the way are:</p>
         <dl>
           <div v-for="(skill, skillIdx) in skills" :key="skillIdx" class="mt-4 mb-4">
             <dt class="text-lg font-semibold mb-2">
@@ -43,9 +43,9 @@
           In my career I had the chance to work with multiple tools and technologies.
           Some I enjoyed, some I still try to forget.
         </p>
-        <p>Having said that, currently I rock with</p>
-        <div class="flex flex-wrap mt-4">
-          <Badge v-for="(tool, toolIdx) in tools" :key="toolIdx" class="mr-2 mb-2">
+        <p>Having said that, currently I rock with:</p>
+        <div class="flex flex-wrap pt-2">
+          <Badge v-for="(tool, toolIdx) in tools" :key="toolIdx" class="mr-1 mb-2">
             {{ tool.name }}
           </Badge>
         </div>
@@ -59,7 +59,7 @@
           I love martial arts. From a young age I have been practicing boxing and participated in several competitions.
         </p>
         <p>
-          I try to find some time to train to compensate sitting at a desk all day long and starring on a screen.
+          I try to find some time to train, to compensate sitting at a desk all day long and starring on a screen.
         </p>
         <p>
           I also like to ride my bike in the city for my every day commute and for longer rides.

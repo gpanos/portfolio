@@ -6,8 +6,8 @@
       </template>
       <template #description>
         I've authored and maintained a few Laravel packages.
-        Have contributed in popular packages like Livewire and Laravel Cashier and more.
-        I am active in <a href="https://laracasts.com/@wingly" class="text-black hover:underline font-medium">Laracasts</a> and love solving coding challenges in <a href="https://www.codewars.com/users/gpanos" class="text-black hover:underline font-medium">Codewars</a>
+        Have contributed in popular packages like Livewire, Laravel Cashier and more.
+        I am active in <a href="https://laracasts.com/@wingly" class="text-black dark:text-gray-200 hover:underline font-bold">Laracasts</a> and love solving coding challenges in <a href="https://www.codewars.com/users/gpanos" class="text-black dark:text-gray-200 hover:underline font-bold">Codewars</a>
       </template>
     </PageHeading>
 
@@ -16,7 +16,7 @@
         <template #title>
           {{ repo.name }}
         </template>
-        <p class="text-sm text-gray-500">
+        <p class="text-sm">
           {{ repo.description }}
         </p>
         <div class="flex justify-end">

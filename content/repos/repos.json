@@ -38,5 +38,10 @@
     "name": "dotfiles",
     "description": "My personal Mac preferences.",
     "link": "https://github.com/gpanos/dotfiles"
+  },
+  {
+    "name": "dimikara.com",
+    "description": "My personal site build with Nuxt and hosted in Netlify.",
+    "link": "https://github.com/gpanos/portfolio"
   }
 ]
