@@ -10,7 +10,7 @@
 export default {
   computed: {
     isDark () {
-      return this.$colorMode.preference === 'dark'
+      return this.$colorMode.value === 'dark'
     }
   },
 
