@@ -93,5 +93,7 @@ export default {
         theme: 'prism-themes/themes/prism-material-oceanic.css'
       }
     }
-  }
+  },
+
+  ignore: [process.env.NODE_ENV === 'production' && 'pages/pdf.vue']
 }

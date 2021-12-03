@@ -12,16 +12,6 @@ export default async function PDF () {
       await build(builder.options.server)
     }
   })
-
-  await this.nuxt.hook('generate:done', async () => {
-    try {
-      console.log('Removing pdf route')
-      await fs.unlinkSync('./dist/pdf/index.html')
-      await fs.rmdirSync('./dist/pdf')
-    } catch (error) {
-      console.log(error)
-    }
-  })
 }
 
 async function build ({ host, port }) {
