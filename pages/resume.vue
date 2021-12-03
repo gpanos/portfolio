@@ -6,7 +6,11 @@
       </template>
       <template #description>
         <span class="flex items-center">
-          Want a print version? <PrintButton class="ml-2" />
+          Want a print version? Download it here
+          <a href="/downloads/resume.pdf" download class="text-gray-400 hover:text-gray-500">
+            <span class="sr-only">Download Resume</span>
+            <IconsDownload class="w-6 h-6 ml-2" />
+          </a>
         </span>
       </template>
     </PageHeading>
