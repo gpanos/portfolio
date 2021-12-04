@@ -1,10 +1,8 @@
 <template functional>
   <img
-    class="inline-block rounded-md"
+    class="inline-block h-14 w-14 rounded-md"
     src="~/assets/avatar.jpeg"
     alt="Dimitris Karapanos avatar"
-    width="56"
-    height="56"
   >
 </template>
 <script>
