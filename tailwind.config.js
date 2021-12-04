@@ -11,9 +11,6 @@ module.exports = {
   darkMode: 'class',
   theme: {
     extend: {
-      fontFamily: {
-        mono: ['JetBrainsMono', ...defaultTheme.fontFamily.mono]
-      },
       typography: theme => ({
         default: {
           css: {
