@@ -2,15 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  @apply bg-white;
-}
-
-.dark body {
-  @apply bg-black;
-}
-
-
 @font-face {
   font-family: JetBrainsMono;
   font-weight: 100;

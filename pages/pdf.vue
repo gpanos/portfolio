@@ -1,5 +1,5 @@
 <template>
-  <div class="font-sans antialiased min-h-screen max-w-7xl mx-auto p-8">
+  <div class="min-h-screen max-w-7xl mx-auto p-8">
     <div><Avatar /></div>
     <div class="mt-5 border-t border-gray-200">
       <dl class="divide-y divide-gray-200">
@@ -138,14 +138,6 @@ export default {
       { label: 'GitHub', link: 'https://github.com/gpanos' },
       { label: 'Website', link: 'https://www.dimikara.com/' }
     ]
-  }),
-
-  /**
-   * Enforce white background even if in dark mode.
-   */
-  mounted () {
-    const body = document.getElementsByTagName('body')[0]
-    body.style.backgroundColor = '#fff'
-  }
+  })
 }
 </script>
