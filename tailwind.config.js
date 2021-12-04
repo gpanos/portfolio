@@ -1,3 +1,5 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 module.exports = {
   purge: [
     './components/**/*.{vue,js}',
@@ -10,7 +12,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        mono: 'JetBrainsMono'
+        mono: ['JetBrainsMono', ...defaultTheme.fontFamily.mono]
       },
       typography: theme => ({
         default: {

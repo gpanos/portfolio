@@ -15,8 +15,6 @@ export default async function PDF () {
 }
 
 async function build ({ host, port }) {
-  if (process.env.NODE_ENV === 'production') { return }
-
   const browser = await puppeteer.launch({
     headless: true
   })
