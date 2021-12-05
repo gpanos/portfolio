@@ -15,7 +15,7 @@ export default {
   head () {
     return {
       bodyAttrs: {
-        class: 'antialiased text-gray-700 dark:text-gray-200 bg-white dark:bg-black font-mono'
+        class: 'antialiased text-gray-700 dark:text-gray-200 bg-white dark:bg-black font-sans'
       }
     }
   }

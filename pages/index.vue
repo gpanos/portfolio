@@ -26,7 +26,7 @@
         </p>
         <dl class="space-y-6 pt-4">
           <div v-for="(skill, skillIdx) in skills" :key="skillIdx">
-            <dt class="text-lg font-bold mb-2">
+            <dt class="text-lg font-semibold mb-2">
               {{ skill.title }}
             </dt>
             <dd>{{ skill.description }}</dd>

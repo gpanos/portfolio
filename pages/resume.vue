@@ -7,7 +7,7 @@
       <template #description>
         <span class="flex items-center">
           Want a print version? Download it here
-          <IconLink href="/downloads/resume.pdf" download label="Download Resume" class="ml-2">
+          <IconLink href="/downloads/resume.pdf" download label="Download Resume" class="ml-1">
             <IconsDownload />
           </IconLink>
         </span>
@@ -26,7 +26,9 @@
             </TextLink>
             <span v-else>{{ job.name }}</span>
           </template>
-          <p>{{ job.role }}</p>
+          <p class="font-medium">
+            {{ job.role }}
+          </p>
           <p class="text-sm">
             {{ job.description }}
           </p>
