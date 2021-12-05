@@ -2,7 +2,7 @@
   <div>
     <PageHeading>
       <template #title>
-        Open source
+        Open Source
       </template>
       <template #description>
         I've authored and maintained a few Laravel packages.
