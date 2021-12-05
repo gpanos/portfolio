@@ -22,12 +22,11 @@
         </template>
         <p>
           I have been translating business requirements into code for almost a decade now.
-          My point of view of what is important in this field constantly changes.
+          Some of the skills that I picked along the way are:
         </p>
-        <p>Some of the skills that I picked along the way are:</p>
-        <dl>
-          <div v-for="(skill, skillIdx) in skills" :key="skillIdx" class="mt-4 mb-4">
-            <dt class="text-lg font-semibold mb-2">
+        <dl class="space-y-6 pt-4">
+          <div v-for="(skill, skillIdx) in skills" :key="skillIdx">
+            <dt class="text-lg font-bold mb-2">
               {{ skill.title }}
             </dt>
             <dd>{{ skill.description }}</dd>

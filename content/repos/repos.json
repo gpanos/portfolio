@@ -2,7 +2,7 @@
   {
     "name": "pwinty",
     "description": "This package makes working with Pwinty image-printing API in Laravel applications a breeze. You can place orders, add images and submit them for shipping. You can also subscribe to Pwinty webhooks after you configure your callback URL at the Pwinty dashboard.",
-    "link": "pwinty"
+    "link": "https://github.com/Wingly-Company/pwinty"
   },
   {
     "name": "phone-verification",

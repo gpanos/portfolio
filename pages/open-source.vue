@@ -7,23 +7,29 @@
       <template #description>
         I've authored and maintained a few Laravel packages.
         Have contributed in popular packages like Livewire, Laravel Cashier and more.
-        I am active in <a href="https://laracasts.com/@wingly" class="text-black dark:text-gray-200 hover:underline font-bold">Laracasts</a> and love solving coding challenges in <a href="https://www.codewars.com/users/gpanos" class="text-black dark:text-gray-200 hover:underline font-bold">Codewars</a>
+        I am active in <TextLink href="https://laracasts.com/@wingly">
+          <!-- eslint-disable-next-line vue/multiline-html-element-content-newline -->
+          Laracasts</TextLink> and love solving coding challenges in
+        <TextLink href="https://www.codewars.com/users/gpanos">
+          Codewars
+        </TextLink>
       </template>
     </PageHeading>
 
     <Content>
       <Article v-for="(repo, repoIdx) in repos" :key="repoIdx">
         <template #title>
-          {{ repo.name }}
+          <TextLink :href="repo.link">
+            {{ repo.name }}
+          </TextLink>
         </template>
         <p class="text-sm">
           {{ repo.description }}
         </p>
         <div class="flex justify-end">
-          <a :href="repo.link" class="text-gray-400 hover:text-gray-500">
-            <span class="sr-only">{{ repo.name }}</span>
-            <IconsGitHub class="h-6 w-6" />
-          </a>
+          <IconLink :href="repo.link" :label="repo.name">
+            <IconsGitHub />
+          </IconLink>
         </div>
       </Article>
     </Content>

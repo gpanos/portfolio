@@ -7,10 +7,9 @@
       <template #description>
         <span class="flex items-center">
           Want a print version? Download it here
-          <a href="/downloads/resume.pdf" download class="text-gray-400 hover:text-gray-500">
-            <span class="sr-only">Download Resume</span>
-            <IconsDownload class="w-6 h-6 ml-2" />
-          </a>
+          <IconLink href="/downloads/resume.pdf" download label="Download Resume" class="ml-2">
+            <IconsDownload />
+          </IconLink>
         </span>
       </template>
     </PageHeading>
@@ -22,7 +21,10 @@
         </template>
         <Article v-for="(job, jobIdx) in jobs" :key="jobIdx">
           <template #title>
-            {{ job.name }}
+            <TextLink v-if="job.url" :href="job.url">
+              {{ job.name }}
+            </TextLink>
+            <span v-else>{{ job.name }}</span>
           </template>
           <p>{{ job.role }}</p>
           <p class="text-sm">

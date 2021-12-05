@@ -4,7 +4,10 @@
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between h-16 relative">
           <div class="flex items-center flex-shrink-0">
-            <Avatar />
+            <NuxtLink to="/">
+              <span class="sr-only">Dimitris Karapanos avatar</span>
+              <Avatar />
+            </NuxtLink>
           </div>
           <div class="items-center hidden sm:flex">
             <NuxtLink v-for="(link, linkIdx) in navigation" :key="linkIdx" :to="link.to" class="text-gray-500 dark:text-gray-200 hover:text-gray-700 dark:hover:text-gray-500 inline-flex items-center px-3 text-sm font-medium">
@@ -14,10 +17,10 @@
             <ToggleColorModeButton />
           </div>
           <div class="absolute inset-y-0 right-0 flex items-center sm:hidden">
-            <DisclosureButton class="inline-flex items-center justify-center text-gray-400 hover:text-gray-500">
+            <DisclosureButton class="inline-flex items-center justify-center text-gray-400 hover:text-gray-500 transition ease-in-out duration-150">
               <span class="sr-only">Open main menu</span>
-              <IconsMenu v-if="!open" class="block h-6 w-6" />
-              <IconsX v-else class="block h-6 w-6" />
+              <IconsMenu v-if="!open" />
+              <IconsX v-else />
             </DisclosureButton>
           </div>
         </div>
