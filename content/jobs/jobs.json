@@ -1,10 +1,25 @@
 [
   {
+    "name": "Alan",
+    "role": "Senior software engineer",
+    "description": "I leverage my expertise in both backend and frontend development to drive the creation of innovative solutions, enhancing the product experience and contributing to the team's success through collaboration and technical leadership.",
+    "url": "https://alan.com",
+    "period": "2023 - present",
+    "stack": [
+      {
+        "name": "Python"
+      },
+      {
+        "name": "React"
+      }
+    ]
+  },
+  {
     "name": "Wingly",
     "role": "Lead software engineer",
     "description": "Started as a full-stack developer, developed from zero the mobile application, web platform and various other products helping the company scale and grow its business. Currently leading a team of developers, splitting my time between management and coding.",
     "url": "https://www.wingly.io/en",
-    "period": "2016 - present",
+    "period": "2016 - 2023",
     "stack": [
       {
         "name": "Laravel"
